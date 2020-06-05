@@ -9,8 +9,10 @@ FROM Sets the Base Image for subsequent instructions.
 
 MAINTAINER (deprecated - use LABEL instead) Set the Author field of the generated images.
 
-#RUN execute any commands in a new layer on top of the current image and commit the results.
-#CMD provide defaults for an executing container.
+# RUN execute any commands in a new layer on top of the current image and commit the results.
+
+# CMD provide defaults for an executing container.
+
 #EXPOSE informs Docker that the container listens on the specified network ports at runtime. NOTE: does not actually make ports accessible.
 
 #ENV sets environment variable.
