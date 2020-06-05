@@ -5,6 +5,7 @@
 
 Instructions
 .dockerignore
+
 FROM Sets the Base Image for subsequent instructions.
 
 MAINTAINER (deprecated - use LABEL instead) Set the Author field of the generated images.
